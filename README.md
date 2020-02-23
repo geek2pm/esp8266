@@ -57,3 +57,8 @@ admin
 >Your Admin url is https://127.0.1.1:9443/admin
 Your Admin login email is admin@blynk.cc
 Your Admin password is admin
+
+
+```
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
+```
