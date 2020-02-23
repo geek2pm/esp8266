@@ -52,3 +52,8 @@ add
 https.port=9443
 Http, hardware and web sockets port
 http.port=8080
+
+admin
+>Your Admin url is https://127.0.1.1:9443/admin
+Your Admin login email is admin@blynk.cc
+Your Admin password is admin
