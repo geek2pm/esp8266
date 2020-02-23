@@ -28,3 +28,22 @@ sudo ampy -p /dev/ttyUSB0 put BlynkLib.py /lib/BlynkLib.py
 
 > BlynkLib.py download from https://raw.githubusercontent.com/vshymanskyy/blynk-library-python/master/BlynkLib.py
 
+## blynk-server (raspberry pi)
+
+```
+sudo apt install openjdk-8-jdk openjdk-8-jre
+```
+```
+wget "https://github.com/blynkkk/blynk-server/releases/download/v0.41.12/server-0.41.12-java8.jar"
+java -jar server-0.41.12-java8.jar -dataFolder /home/pi/Blynk
+```
+
+```
+crontab -e
+```
+
+add
+
+```
+@reboot java -jar /home/pi/server-0.41.12-java8.jar -dataFolder /home/pi/Blynk &
+```
