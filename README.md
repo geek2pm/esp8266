@@ -21,9 +21,8 @@ pip3 install blynk-library-python
 
 esp8266
 ```
-export AMPY_PORT=/dev/ttyUSB0
-ampy mkdir /lib
-ampy put BlynkLib.py /lib/BlynkLib.py
+sudo ampy -p /dev/ttyUSB0 mkdir /lib
+sudo ampy -p /dev/ttyUSB0 put BlynkLib.py /lib/BlynkLib.py
 ```
 
 
