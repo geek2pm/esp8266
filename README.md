@@ -47,3 +47,8 @@ add
 ```
 @reboot java -jar /home/pi/server-0.41.12-java8.jar -dataFolder /home/pi/Blynk &
 ```
+
+> Blynk app, https, web sockets, admin port
+https.port=9443
+Http, hardware and web sockets port
+http.port=8080
